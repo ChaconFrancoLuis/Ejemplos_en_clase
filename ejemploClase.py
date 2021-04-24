@@ -1,31 +1,21 @@
+class hero:
+    def __init__(self):
+        self.pelo="rojo"
+        self.armadura="titanio"
+        self.sexo="mujer"
 
-class Circle:
-    def __init__(self, radius):
-        self.radius = radius
+    def moveRight(self):
+        print("hero is moving right")
+    
+    def moveLeft(self):
+        print("hero is moving to the left")
 
-    def circumference(self):
-      pi = 3.14 # (Will hardcode pi in this example)
-      circumferenceValue = pi * self.radius * 2
-      return circumferenceValue
-
-    def printCircumference(self):
-      myCircumference = self.circumference()
-      print ("Circumference of a circle with a radius of " + str(self.radius) + " is " + str(myCircumference))
-
-
-radius1 = 2
-radius2 = 5
-radius3 = 7
-
-circle1 = Circle(radius1)
-circle1.printCircumference()
+    def moveDown(self):
+        print("hero is moving down")
 
 
+anya=hero()
+anya.moveRight()
+anya.moveDown()
 
-circle2 = Circle(radius2)
-circle2.printCircumference()
-
-
-
-circle3 = Circle(radius3)
-circle3.printCircumference()
+    
