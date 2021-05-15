@@ -1,0 +1,11 @@
+<services>
+  <service>
+    <name>Service A</name>
+    <status>Running</status>
+  </service>
+  <service>
+
+    <name>Service B</name>
+    <status>Idle</status>
+  </service>
+</services>
