@@ -6,7 +6,7 @@ class pinging():
 
     def hacerping(self):
         b=input("Ingrese la IPV4 a hacer ping: ")
-        a= ping(b,verbose=True)
+        ping(b,verbose=True)
 
 
 ip1=pinging()
